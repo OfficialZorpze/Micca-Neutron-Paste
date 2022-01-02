@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCanvas.cpp">
+      <Filter>Menu &amp; Offsets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>D3D9X</Filter>
+    </ClInclude>
+    <ClInclude Include="newdriver\driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="newdriver\driver_structs.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="newdriver\process.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Defines &amp; Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Defines &amp; Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="fontSF.h">
+      <Filter>Defines &amp; Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>Defines &amp; Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Defines &amp; Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Menu &amp; Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth.hpp">
+      <Filter>GameBarProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Render">
+      <UniqueIdentifier>{1c6a05b8-6d82-4f26-8609-2b8190e904af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D9X">
+      <UniqueIdentifier>{7334a7a1-2c4e-4a6a-932d-e8608575c04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{0df4e8fb-06fb-4434-813b-d21d205ace22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{e75c2721-1ed5-4443-ae9b-9a678d7d2911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines &amp; Misc">
+      <UniqueIdentifier>{719535e7-5417-4763-8719-070889c60736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu &amp; Offsets">
+      <UniqueIdentifier>{b9d1b921-39f9-4c46-93c1-ecef08e38ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{c778e6c6-54fd-465e-a2f4-adc808284bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameBarProcess">
+      <UniqueIdentifier>{27548684-9d1a-405f-9e37-e5c2610a019b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>D3D9X</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
